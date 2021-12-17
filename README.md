@@ -1,4 +1,4 @@
-# Deep CNN Compression via l0 Sparse-Group Lasso on Human Activity Recognition using Smartphone 
+## Deep CNN Compression via l0 Sparse-Group Lasso on Human Activity Recognition using Smartphone 
 
 All the following works are implemented via Google Colab.
 
