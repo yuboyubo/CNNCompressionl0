@@ -12,4 +12,4 @@ All the following works are implemented via Android Studio.
 
 - Android (code)
 
-Click the above directories to see more details
+Click the above directories to see more details.
