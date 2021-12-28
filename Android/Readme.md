@@ -7,6 +7,6 @@ All model and test data are located in assets folder. For all dataset, we use 20
 We adopt Batterystats and Battery Historian (https://developer.android.com/topic/performance/power/setup-battery-historian) to estimate the battary usage for each model.
 
 Here is the Application UI:
-<img src="/figure/android_ui.jpg " width="200">
+<img src="./figure/android_ui.jpg " width="200">
 
 ![plot](./figure/android_ui.jpg =250x))
