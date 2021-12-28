@@ -20,4 +20,4 @@ This directory contains the code and resources of the following paper:
 
 ### Overview of the Model
 
-![](./figure/prune-model.pdf)
+<img src="./figure/prune-model.png" width="500">
