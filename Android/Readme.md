@@ -8,4 +8,4 @@ We adopt Batterystats and Battery Historian (https://developer.android.com/topic
 
 Here is the Application UI:
 
-<img src="./figure/android_ui.jpg " width="200">
+<img src="./figure/android_ui.jpg " width="250">
