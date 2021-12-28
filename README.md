@@ -28,4 +28,5 @@ For a particular neural network, if all the incoming and outgoing weights of a n
 
 Here, we implemented l0 sparse group lasso along with other state-of-arts pruning methods such as l0 norm, 11 norm, l2 norm, group lasso and l1 sparse group lasso. And we compared the weights and nodes sparsity as well as the computational cost and battary consumptions of our proposed model and other state-of-arts models.
 
-### Liences
+### Lience
+The source code for the site is licensed under the MIT license, which you can find in the MIT-LICENSE.txt file.
