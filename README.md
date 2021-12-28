@@ -7,14 +7,14 @@ This directory contains the code and resources of the following paper:
 
 1. All the following works are implemented via Google Colab.
 
-&nbsp;&nbsp;&nbsp;  - WISDM (code, data, model)
+ - WISDM (code, data, model)
 
-&nbsp;&nbsp;&nbsp;  - UCI-HAR (code, data, model)
+ - UCI-HAR (code, data, model)
 
-&nbsp;&nbsp;&nbsp;  - PAMAP2 (code, data, model)
+ - PAMAP2 (code, data, model)
+
 2. All the following works are implemented via Android Studio.
-
-&nbsp;&nbsp;&nbsp;  - Android (code)
-
+ - Android (code)
+ 
 3. Please contact Yubo Shao shao111@purdue.edu if you have issues using the code.
 
