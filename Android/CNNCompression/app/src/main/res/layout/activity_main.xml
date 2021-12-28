@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/isbattery"
+        android:layout_width="165dp"
+        android:layout_height="99dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692">
+
+        <RadioButton
+            android:id="@+id/running_time_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Running Time Test" />
+
+        <RadioButton
+            android:id="@+id/battery_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battery Test" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/iscompress"
+        android:layout_width="206dp"
+        android:layout_height="98dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417">
+
+        <RadioButton
+            android:id="@+id/uncompress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Uncompressed Model" />
+
+        <RadioButton
+            android:id="@+id/compress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compressed Model" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result_veiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: Please click the start button"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <RadioGroup
+        android:id="@+id/dataset"
+        android:layout_width="163dp"
+        android:layout_height="136dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/iscompress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719">
+
+        <RadioButton
+            android:id="@+id/wisdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="WISDM dataset" />
+
+        <RadioButton
+            android:id="@+id/ucihar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UCI-HAR dataset" />
+
+        <RadioButton
+            android:id="@+id/pamap2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAMAP2 dataset" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/penalty"
+        android:layout_width="144dp"
+        android:layout_height="294dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177">
+
+        <RadioButton
+            android:id="@+id/l0_norm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="l0 norm" />
+
+        <RadioButton
+            android:id="@+id/l1_norm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="l1 norm" />
+
+        <RadioButton
+            android:id="@+id/l2_norm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="l2 norm" />
+
+        <RadioButton
+            android:id="@+id/group_lasso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="group lasso" />
+
+        <RadioButton
+            android:id="@+id/l1_group_lasso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="l1 group lasso" />
+
+        <RadioButton
+            android:id="@+id/l0_group_lasso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="l0 group lasso" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your choice:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+</androidx.constraintlayout.widget.ConstraintLayout>
