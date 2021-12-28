@@ -3,7 +3,7 @@
 # About
 This directory contains the code and resources of the following paper:
 
-"Deep CNN Compression via l0 Sparse-Group Lasso on Human Activity Recognition using Smartphone". Under review.
+*"Deep CNN Compression via l0 Sparse-Group Lasso on Human Activity Recognition using Smartphone".* Under review.
 
 1.
 2.
