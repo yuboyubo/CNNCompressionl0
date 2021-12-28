@@ -14,7 +14,9 @@ This directory contains the code and resources of the following paper:
  - PAMAP2 (code, data, model)
 
 2. All the following works are implemented via Android Studio.
- - Android (code)
+ - Android (code, data, model)
  
 3. Please contact Yubo Shao shao111@purdue.edu if you have issues using the code.
+
+### Overview of the Model
 
