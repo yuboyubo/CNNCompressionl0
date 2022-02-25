@@ -30,7 +30,7 @@ xlim([42 58])
 ylim([86 91])
 
 % Create xlabel
-xlabel('Nonzero Parameter (%)','FontSize',26);
+xlabel('Parameter Remaining (%)','FontSize',26);
 set(gcf, 'Color', 'w');
 set(gcf, 'Position', [20 20 1200 600]);
 set(gca,'Box', 'off','fontsize',26);
