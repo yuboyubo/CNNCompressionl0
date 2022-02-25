@@ -9,6 +9,7 @@ This directory contains the code and resources of the following paper:
 
 2. All the following works are implemented via Google Colab.
  - HAR benchmarks
+
  	-- WISDM (code, data, model)
 
  	-- UCI-HAR (code, data, model)
